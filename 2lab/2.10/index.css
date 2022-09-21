@@ -1,0 +1,15 @@
+
+.floatbox{
+    margin: 25px;
+    background: aquamarine;
+    width: 150px;
+    height: 100px;
+}
+.clearbox{
+    margin: 25px;
+    clear: right;
+    background: bisque;
+}
+*{
+    margin: 0%;
+}

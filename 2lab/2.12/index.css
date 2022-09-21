@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    padding: 5px;
+}
+.main{
+    display: flex;
+    border-style: solid;
+    border-color: green;
+    background-color: cyan;
+    border-width: 2px;
+    flex-direction: row;
+}
+.text{
+    position: relative;
+    background-color: grey;
+}
+.list{
+    margin-right: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    background-color:bisque;
+}
+@media (max-width: 500px) {
+    .main{
+        flex-direction: column;
+        
+    }
+    .text{
+        float: left;
+        width: 300px;
+    }
+    .list{
+        min-width: 130px;
+        max-width: 130px;
+    }
+}
+*{
+    margin: 0%;
+}

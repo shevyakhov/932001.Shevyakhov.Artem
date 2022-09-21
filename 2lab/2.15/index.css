@@ -1,0 +1,22 @@
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.block {
+    
+    margin: 20px;
+    display: inline;
+    background: aquamarine;
+    width: 160px;
+    height: 100px;
+  }
+  
+.clear {
+    margin: 10px;
+    background: bisque;
+  }
+*{
+    
+    margin: 0%;
+}

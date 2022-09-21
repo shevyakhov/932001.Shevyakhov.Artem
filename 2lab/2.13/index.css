@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    padding: 5px;
+}
+.main{
+    display: flex;
+    border-style: solid;
+    border-color: green;
+    background-color: cyan;
+    border-width: 2px;
+    flex-direction: row;
+}
+img{
+    width: 600px;
+    height: 600px;
+    clear: both;
+    float: right;
+    vertical-align: text-top;
+}
+.textContainer{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    position: relative;
+    background-color: grey;
+}
+.list{
+    padding: 10px;
+    min-width: 400px;
+    max-width: 200px;
+    background-color:bisque;
+}
+@media (max-width: 900px) {
+    .text{
+        float: left;
+        width: fit-content;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .list{
+        min-width: 130px;
+        max-width: 130px;
+    }
+}
+*{
+    margin: 0%;
+}

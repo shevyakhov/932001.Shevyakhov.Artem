@@ -1,0 +1,24 @@
+body {
+    padding: auto;
+    background-color: white;
+    margin:10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+
+    width: 600px;
+    min-width: 600px;
+    background-color: blue;
+    color: white;
+
+}
+.block img{
+    flood-opacity: 10%;
+    float: right;
+}
+*{
+    margin: 0%;
+}
