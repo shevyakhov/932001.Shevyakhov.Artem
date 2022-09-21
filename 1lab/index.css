@@ -8,8 +8,6 @@ body {
 }
 header {
     width: 100%;
-    min-width: none;
-    min-height: none;
     line-height: 30px;
     height: 30px;
     text-align: center;
