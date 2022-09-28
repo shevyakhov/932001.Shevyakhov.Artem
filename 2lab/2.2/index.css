@@ -39,7 +39,6 @@ body {
     padding: 0%;
 }
 .right{
-    max-width: 200px;
     min-width: 200px;
     width: 200px;
     background-color:yellow;

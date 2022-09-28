@@ -12,6 +12,7 @@ body {
 
 }
 .fixedDiv{
+    z-index: 9;
     color: white;
     height: 70px;
     width: 70px;
@@ -33,6 +34,7 @@ body {
     background-color:rebeccapurple;
 }
 .relativeBig{
+    z-index: 10;
     color: white;
     height: 350px;
     width: 500px;
