@@ -1,0 +1,47 @@
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+.mainContainer{
+    margin: auto;
+    width: 600px;
+    height: 300px;
+}
+.picList{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+  
+}
+#list{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+}
+.pictureCat{
+    display: flex;
+    
+    width: 50%;
+    background-color: blue;
+}
+.pictureDog{
+    display: flex;
+    
+    width: 50%;
+    background-color: green;
+}
+img{
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 70%;
+    width: 90%;
+}
+button{
+    padding: 10px 3px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    border: solid black 2px;
+}
