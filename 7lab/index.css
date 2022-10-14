@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.panel{
+    margin-top: 10px;
+    position: fixed;
+    z-index: 1000;
+}
+input{
+    margin:  0 10px;
+}
+.buttons{
+    margin:  0 10px;
+}
+.rect {
+    border: solid black 1px;
+    position:relative;
+
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+.circle {
+    background-color: rgba(0, 128, 0, 0.5);
+    position:relative;
+    border-radius: 50%;
+  }
+.triangle{
+    width: 0;
+    height: 0;
+    position:relative;
+    
+}
