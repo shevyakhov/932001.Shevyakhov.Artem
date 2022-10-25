@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+        <head>       
+            <link rel="stylesheet" type="text/css" href="index.css">
+            <title>Web lab8</title>
+        </head>
+        <div id="mainContainer">
+            <div class="itemContainer" style="display:none;">
+                <div class="item">
+                    <input class="mainText" type="text"><input class="subText" type="text"><button onclick="higher(this)">↑</button><button onclick="lower(this)">↓</button><button onclick="deleteItem(this)">x</button>
+                </div>
+            </div>
+            <div class="list">
+            </div>
+            <div>
+                <button id="add" onclick="addItem()">Добавить элемент</button>
+                <br>
+                <button id="save" onclick="saveResult()">Сохранить</button>
+            </div>
+        </div>
+        <div class="result"></div>
+        <script type="text/javascript" src="script.js"></script>
+        
+</html>
