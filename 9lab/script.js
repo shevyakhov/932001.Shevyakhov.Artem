@@ -1,5 +1,4 @@
- // Function that display value
- function clearTv() {
+function clearTv() {
   document.getElementById("result").value = '';
   
 }
