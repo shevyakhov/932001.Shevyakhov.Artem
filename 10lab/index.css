@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scene {
+    background-image: url("scene.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.scene_h:hover {
+    translate: 0 -5%;
+    transition-duration: 0.2s;
+}
+
+.gotopart2 {
+    position: absolute;
+    top: -100%;
+    transition: all 2s;
+}
+
+.lamp {
+    background-image: url("lamp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    z-index: 4;
+}
+
+.mage {
+    background-image: url("mage.jpg");
+    background-size: contain;
+    width: 384px;
+    height: 288px;
+    z-index: 3;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hat {
+    transform: rotate(180deg);
+    background-image: url("hat.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    z-index: 4;
+}
+
+#animal {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    transition: top 0.5s;
+    top: 0px;
+}
+
+#animal.rabbit {
+    z-index: 4;
+    background-image: url("rabbit.png");
+}
+
+#animal.bird {
+    z-index: 4;
+    background-image: url("bird.png");
+}
+
+.light {
+    height: 0;
+    position: absolute;
+    top: 85px;
+    border-bottom: 900px solid rgba(255, 208, 0, 0.199);
+    border-left: 465px solid transparent;
+    border-right: 465px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    visibility: hidden;
+    z-index: 3;
+}
