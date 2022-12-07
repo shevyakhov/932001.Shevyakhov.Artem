@@ -1,8 +1,15 @@
 function clearTv() {
   document.getElementById("result").value = '';
-  
 }
  function inp(val) {
+  let symb = ['+', '*', '.','/'];
+  let minus = '-';
+  let last = document.getElementById("result").value;
+  if(symb.includes(val) && symb.includes(last.slice(-1))){
+    alert('неправильный ввод');
+  }else if(last.slice(-1) == minus && last.slice(-2).slice(0,1) == minus && (symb.includes(val) || val == minus)){
+    alert('неправильный ввод');
+  } else
   document.getElementById("result").value += val;
 }
 function back(){
@@ -16,9 +23,8 @@ function solve() {
 
   try {
     res = eval(str);
-    document.getElementById("result").value = y;
+    document.getElementById("result").value = res;
   } catch (error) {
-   
     alert("Неправильный ввод")
   }
 }
